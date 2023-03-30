@@ -12,5 +12,10 @@ namespace CalculatorGit
         {
             return Addition.Add(x, y);
         }
+
+        public int FindSquare(int x)
+        {
+            return Square.squareFn(x);
+        }
     }
 }
