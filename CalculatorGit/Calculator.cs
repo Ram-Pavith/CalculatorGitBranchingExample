@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace CalculatorGit
 {
-    internal class Calculator
+    public class Calculator
     {
+        public int Add(int x, int y)
+        {
+            return Addition.Add(x, y);
+        }
+
+        public int FindSquare(int x)
+        {
+            return Square.squareFn(x);
+        }
     }
 }
