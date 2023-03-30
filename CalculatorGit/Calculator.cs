@@ -13,6 +13,11 @@ namespace CalculatorGit
             return Addition.Add(x, y);
         }
 
+        public float div(float x, float y)
+        {
+            return division.div(x, y);
+        }
+
 
         public int Sub(int x, int y)
         {
@@ -22,6 +27,7 @@ namespace CalculatorGit
         public float mult(int x,int y)
         {
             return multiply.mult(x,y);
+
         }
     }
 }
