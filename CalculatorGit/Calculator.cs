@@ -12,5 +12,9 @@ namespace CalculatorGit
         {
             return Addition.Add(x, y);
         }
+        public float div(float x, float y)
+        {
+            return division.div(x, y);
+        }
     }
 }
