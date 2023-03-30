@@ -12,5 +12,9 @@ namespace CalculatorGit
         {
             return Addition.Add(x, y);
         }
+        public float mult(int x,int y)
+        {
+            return multiply.mult(x,y);
+        }
     }
 }
