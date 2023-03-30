@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CalculatorGit
 {
-    public class Calculator
+    public class Addition
     {
-        public int Add(int x, int y)
+        public static int Add(int first,int second)
         {
-            return Addition.Add(x, y);
+            return first + second;
         }
     }
 }
