@@ -12,5 +12,10 @@ namespace CalculatorGit
         {
             return Addition.Add(x, y);
         }
+
+        public int Sub(int x, int y)
+        {
+            return Subtract.subtract(x, y);
+        }
     }
 }
