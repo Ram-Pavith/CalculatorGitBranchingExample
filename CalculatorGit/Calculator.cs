@@ -13,6 +13,11 @@ namespace CalculatorGit
             return Addition.Add(x, y);
         }
 
+
+        public int FindSquare(int x)
+        {
+            return Square.squareFn(x);
+}
         public float div(float x, float y)
         {
             return division.div(x, y);
@@ -27,6 +32,7 @@ namespace CalculatorGit
         public float mult(int x,int y)
         {
             return multiply.mult(x,y);
+
 
         }
     }
