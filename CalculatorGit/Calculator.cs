@@ -13,9 +13,15 @@ namespace CalculatorGit
             return Addition.Add(x, y);
         }
 
+
         public int Sub(int x, int y)
         {
             return Subtract.subtract(x, y);
+        }
+
+        public float mult(int x,int y)
+        {
+            return multiply.mult(x,y);
         }
     }
 }
