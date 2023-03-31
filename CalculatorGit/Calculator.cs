@@ -35,15 +35,5 @@ namespace CalculatorGit
          *  fksdjflkdsf s
          *  */
 
-
-
-
-
-
-
-
-        //bad stuff here 
-
-
     }
 }
